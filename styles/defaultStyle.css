@@ -1,0 +1,352 @@
+.maintext
+{
+		position: absolute;
+		top: 35%;
+		left: 25%;
+		transform: translateX(-25%) translateY(-35%);
+		font-family: 'Marko One';
+}
+
+.logotext
+{
+		font-family: 'Marko One';
+		position: absolute;
+		right: 30px;
+		top: 10px;
+}
+.headbar {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to bottom right, #787C79, #131415);
+    margin-top: -15px;
+	box-shadow: 0px 0px 20px #3d3d3d;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    border-left: 6px solid #00a2e8;
+    padding-left: 10px;
+}
+
+.text {
+    font-family: "Roboto script=all rev=1";
+    font-size: 20px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 70px;
+    float: right;
+    margin-right: 45px;
+    font-weight: 800;
+}
+
+.button {
+    color: white;
+    padding: 20px 10px 25px 10px;
+    background-color: transparent;
+    transition: background 250ms ease;
+	font-family: "Lucida Console";
+	font-weight: 200;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #565656;
+}
+
+.imageheader {
+		width:100%;
+    height: 72vh;
+    background-image: url(../images/cyberheader.png);
+    background-repeat: no-repeat;
+}
+
+.headerimage {
+    height: 700px;
+    background: url("../images/cyberheader.png") center center;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+.fblogo {
+    background-image: url('../images/facebook-logo.png');
+    width: 45px;
+    height: 45px;
+    float: right;
+}
+
+::selection {
+    background: #c1c1c1;
+}
+
+.nestbutton {
+    color: white;
+    padding: 20px 10px 25px 10px;
+    background-color: black;
+    transition: background 250ms ease;    
+}
+
+.container {
+	margin-bottom: 60px;
+	position: relative;
+}
+
+
+.headertext {
+	font-family: Roboto, sans-serif;
+	color: #f7f7f7;
+	font-size: 5.5rem;
+	font-weight: 800;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+.headercontainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+
+
+.carousel {
+	width: 1024px;
+	position: absolute;
+	left: 50%;
+	margin-left: -512px;
+	margin-bottom: 60px;
+}
+
+
+
+.carousel-wrapper {
+	height: 768px;
+	margin-bottom: 60px;
+}
+
+footer {
+	height: 300px;
+	background-color: #333;
+	box-shadow: 0px 0px 20px #3d3d3d;
+}
+
+.text-wrapper {
+	height: 190px;
+	background-color: #0186bf;
+	position: relative;
+	margin-bottom: 60px;
+	box-shadow: 0px 0px 20px #3d3d3d;
+}
+
+.text2 {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	font-family:"Roboto";
+    font-weight: 200;
+    font-size: 1.9rem;
+	line-height: 35px;
+	color: lightgray
+}
+
+.circle {
+	text-align: center;
+	height: 20rem;
+	width: 20rem;
+	border-radius: 50%;
+	background-size: cover;
+	margin-bottom: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.member-display {
+	display: inline-block;
+	width: 20rem;
+	margin: 0px 13px 60px 13px;
+}
+
+.wrap {
+	overflow-wrap: break-word;
+}
+
+.member-name {
+	font-family: "Roboto script=all rev=1";
+	font-size: 2.3rem;
+}
+
+.member-desc {
+	font-family: "Roboto script=all rev=1";
+	font-size: 1.8rem;	
+}
+
+
+.navibar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Courier;
+	height: 51px;
+	width: 100%;
+	padding-left: 90px;
+	box-shadow: 0px 0px 20px #3d3d3d;
+}
+
+.navibar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdwn {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdwn .dropbutn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 12px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navlink {
+	transition: all 250ms ease;
+}
+
+.dropdwn {
+	transition: all 250ms ease;
+}
+
+.dropdwn-content a {
+	transition: all 250ms ease;
+}
+
+.navibar .navlink:hover, .dropdwn:hover  {
+    background-color: #00a2e8;
+	border-bottom: 5px solid #dddddd;
+}
+
+.dropdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #e0e0e0;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdwn-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdwn-content a:hover {
+    background-color: #888989;
+	color: white;
+}
+
+.dropdwn:hover .dropdwn-content {
+    display: block;
+}
+
+.carousel-control { 
+	width:  4%; 
+}
+
+.carousel-control.left,.carousel-control.right {
+	margin-left:15px;
+	background-image:none;
+}
+
+
+.navlogo {
+	top: 0.45rem;
+	position: absolute;
+	left: 4rem;
+}
+
+.fademe {
+	opacity: 0;
+}
+
+.fademe0 {
+	opacity: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: dimgray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightgray;
+    color: black;
+}
+.text3 {
+    font-family: "Roboto script=all rev=1";
+    font-size: 20px;
+    margin: 30px;
+}
+.container-logo{
+	height: 700px;
+	background: url(../images/gray-background.png);
+	background-size: cover;
+	position: relative;
+}
+
+.container-logoMembrii {
+	height: 700px;
+	background: url(../first/background.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.center {
+	height: 45rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 60px;
+}
